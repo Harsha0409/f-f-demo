@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Bikers Club</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <nav>
+        <div class="left-side-logo">
+            <img src="assets/logo.png" alt="">
+        </div>
+        <!-- Toggle button for menu -->
+         <div class="toggle-button">
+            <button class="menu-toggle">☰</button>
+         </div>
+         <div class="right-side-icons">
+            <div class="nav-icons"><a href="home.html">Home</a></div>
+            <div class="nav-icons"><a href="about.html">About Us</a></div>
+            <div class="nav-icons"><a href="events.html">Events</a></div>
+            <div class="nav-icons"><a href="gallery.html">Gallery</a></div>
+            <div class="nav-icons"><a href="">Shop</a></div>
+            <div class="nav-icons"><a href="contact.html">Contact Us</a></div>
+        </div>
+    </nav>
+
+    <section class="contact-section">
+        <div class="contact-container">
+            <h2>Get In Touch</h2>
+            <p class="subtitle">We'd love to hear from you! Fill out the form below.</p>
+            
+            <form action="contact.php" method="POST" class="contact-form">
+                <div class="input-group">
+                    <input type="text" name="first_name" placeholder="First Name" required>
+                    <input type="text" name="second_name" placeholder="Second Name" required>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="tel" name="phone" placeholder="Phone Number" required>
+                </div>
+
+                <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="address">
+                <h1>Address</h1>
+                <P>Kurnool Kurnool kurnool kurnool</P>
+            </div>
+
+            <div class="website-info">
+                <div class="sitemap">
+                    <h1>Site Map</h1>
+                    <div class="list-align">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Events</a></li>
+                          </ul>
+                          <ul>
+                              <li><a href="#">Shop</a></li>
+                              <li><a href="#">Blog</a></li>
+                              <li><a href="#">Contact Us</a></li>
+                          </ul>
+                    </div>
+                  </div>
+                  <div class="social-icons">
+                    <div class="logo"> <img src="assets/logo.png" alt="logo"></div>
+                    <div class="contact-icons">
+                        <div class="icon-wrapper">
+                            <i class="ri-instagram-fill custom-icons"></i>
+                            <span class="tooltip">Instagram</span>
+                        </div>
+                        <div class="icon-wrapper">
+                            <i class="ri-phone-fill custom-icons"></i>
+                            <span class="tooltip">Phone</span>
+                        </div>
+                        <div class="icon-wrapper">
+                            <i class="ri-mail-fill custom-icons"></i>
+                            <span class="tooltip">Email</span>
+                        </div>
+                        <div class="icon-wrapper">
+                            <i class="ri-whatsapp-fill custom-icons"></i>
+                            <span class="tooltip">WhatsApp</span>
+                        </div>
+                    </div>                
+                  </div>
+              </div>
+        </div>
+        <div class="rights">
+            <p>Copy Rights @2024 All rights are reserved bikers club</p>
+        </div>
+    </footer>
+
+</body>
+</html>
